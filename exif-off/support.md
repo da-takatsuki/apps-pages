@@ -121,6 +121,7 @@ Eligibility is Apple's decision and depends on where you live, under the Apple M
 ## Known limits in this release
 
 - Up to 20 photos per run.
+- The picker shows your 300 most recent photos. There is no album view, search, or "load more" yet, so photos older than that cannot be reached in this release.
 - JPEG, PNG, and HEIC only. Videos cannot be selected at all, a RAW file is reported as skipped, and a Live Photo is read as its still image, so the copy Exif Off saves is a still photo.
 - Originals in your Photos library are never modified. A cleaned copy is saved instead.
 - "Remove location only" also removes XMP, IPTC, and MakerNote, and with them any captions or keywords stored there.
