@@ -61,7 +61,7 @@ It is built with open-source Flutter packages, which is ordinary for an iOS app:
 
 The app makes no network requests. There is no backend service, no telemetry endpoint, and no remote configuration, and there is no Exif Off server anywhere. This is a property of the code rather than a promise about our conduct: there is nothing in the app that can open a network connection.
 
-We checked that instead of assuming it. Every open-source package Exif Off depends on was scanned, along with the native frameworks that end up inside the app itself, for every network API we could name. Nothing matched. A test in our build fails if a package that can reach the network is ever added, so it stays true release to release.
+We checked that instead of assuming it, and we checked the app we actually ship. None of the binaries inside it link against Apple's networking frameworks, and the compiled Dart code contains no HTTP client at all. Some of the open-source packages Exif Off is built on do carry network code for other platforms, in a web or Android build path; none of it reaches the iPhone app. A test in our build fails if a package that can reach the network is ever added, so this stays true release to release.
 
 One thing in the app leads to the internet, and it is worth being exact about: the Settings screen has two links, one to the support form and one to this policy. Tapping one hands the address to your browser, and your browser loads the page. The app does not fetch anything itself, and nothing about you is added to the link.
 
