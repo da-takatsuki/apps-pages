@@ -5,7 +5,7 @@ title: Linkpoche Privacy Policy
 
 # Linkpoche Privacy Policy
 
-Last updated: 2026-10-04
+Last updated: 2026-10-06
 
 Linkpoche keeps the links you save on your iPhone, and it does not collect any data about you: not for analytics, not for advertising, not in anonymized or aggregated form. It does connect to the internet, though. To show a title and a picture for each link, your iPhone fetches them directly from the sites you saved. This page explains exactly what that involves, item by item, because a sentence saying we care about your privacy doesn't tell you anything.
 
@@ -169,6 +169,15 @@ The app collects nothing from anyone, at any age.
 
 Everything the app stores is on your iPhone, and you can view, change, export or delete it in the app. We hold nothing from the app, so there is nothing for us to access, correct or delete. The one thing we may hold is a message you sent through the feedback form. If you ask us to delete it, we will. For what a website did with a request from your iPhone, contact that website.
 
+## This website (linkpoche.pages.dev)
+
+This section covers the Linkpoche website at https://linkpoche.pages.dev, not the app. The app does not use it.
+
+- The website is hosted on Cloudflare Pages. As with any website, Cloudflare receives your request, including your IP address and browser details, to deliver the page. Cloudflare's privacy policy covers this: https://www.cloudflare.com/privacypolicy/
+- The website uses Cloudflare Web Analytics to count visits. It loads a small script from Cloudflare that reports the page you viewed, the page that linked to it, your browser and device type, your country, and how fast the page loaded. Cloudflare says it uses no cookies or local storage for this and does not fingerprint visitors by IP address or User-Agent. We see only totals, such as visits per page and per country, never individual visitors.
+- The website sets no cookies, has no ads, and has no sign-in or forms.
+- Links to the App Store include a campaign label (for example `ct=lp-en-top-hero`) so App Store Connect can count downloads that came from the website. Apple reports these to us only as totals.
+
 ## Changes to this policy
 
 If this policy changes, the new version will be posted here with a new date at the top, and the App Store listing will be updated in the same release. We will not start collecting data in a silent update.
@@ -181,7 +190,7 @@ Feedback form: https://forms.gle/GqJSQ4cF1YpSt5vx5
 
 ## 日本語
 
-最終更新日: 2026-10-04
+最終更新日: 2026-10-06
 
 Linkpoche は、保存したリンクを iPhone の中に置いておくアプリです。お使いの方に関するデータは集めていません。分析のためにも、広告のためにも集めず、匿名化や集計をした形でも集めません。ただし、インターネットにはつながります。リンクごとに題と絵を出すため、保存したサイトから iPhone が直接取りにいきます。それが何を意味するのかを、以下に項目ごとに書きます。「プライバシーを大切にしています」という一文では、何も伝わらないからです。
 
@@ -344,6 +353,15 @@ iOS アプリとして一般的な、オープンソースの Flutter パッケ�
 ### あなたの権利
 
 アプリが保存するものはすべて iPhone の中にあり、アプリの中で見る・直す・書き出す・消すことができます。アプリから私たちが預かっているものはないので、開示・訂正・削除の対象もありません。例外は、フォームから送られたお便りです。削除をご希望の場合は削除します。iPhone から届いたリクエストをサイトがどう扱ったかについては、そのサイトにお問い合わせください。
+
+### この Web サイト（linkpoche.pages.dev）
+
+この節は、アプリではなく Linkpoche の Web サイト https://linkpoche.pages.dev についてです。アプリはこのサイトを使いません。
+
+- サイトは Cloudflare Pages に置いています。ほかの Web サイトと同じく、ページを届けるために、Cloudflare はあなたの IP アドレスやブラウザの情報を含む要求を受け取ります。その扱いは Cloudflare のプライバシーポリシーに従います: https://www.cloudflare.com/privacypolicy/
+- 訪問数を数えるため、Cloudflare Web Analytics を使っています。Cloudflare の小さなスクリプトを読み込み、見たページ、そのページへのリンク元、ブラウザと端末の種類、国、ページの表示にかかった時間を送ります。Cloudflare によれば、このためにクッキーや端末内の保存領域は使わず、IP アドレスや User-Agent で訪問者を識別することもしません。私たちが見るのはページごと・国ごとの訪問数などの合計だけで、一人ひとりの訪問者は見えません。
+- サイトはクッキーを置かず、広告もなく、ログインや入力フォームもありません。
+- App Store へのリンクには、サイトから来たダウンロードを App Store Connect で数えるための印（例 `ct=lp-ja-top-hero`）を付けています。Apple から届くのは合計の数だけです。
 
 ### このポリシーの変更
 
