@@ -5,7 +5,7 @@ title: Linkpoche Privacy Policy
 
 # Linkpoche Privacy Policy
 
-Last updated: 2026-10-06
+Last updated: 2026-10-10
 
 Linkpoche keeps the links you save on your iPhone, and it does not collect any data about you: not for analytics, not for advertising, not in anonymized or aggregated form. It does connect to the internet, though. To show a title and a picture for each link, your iPhone fetches them directly from the sites you saved. This page explains exactly what that involves, item by item, because a sentence saying we care about your privacy doesn't tell you anything.
 
@@ -14,11 +14,12 @@ Linkpoche is published by Daiki Takatsuki. Contact: the feedback form at https:/
 ## The short version
 
 - Everything you save is stored on your iPhone. That includes links, screenshots, titles, pictures, notes, pouches and summaries. There is no Linkpoche server, no account and no sign-in.
-- To build a preview, your iPhone contacts the site behind each link you save, plus a few services listed below. Those sites receive the request, including your IP address, as they would if you opened the link yourself. Nothing passes through us.
+- To build a preview, your iPhone contacts the site behind each link you save, plus a few services listed below. Links you bring in from other apps are fetched the same way, without reading the article text. Those sites receive the request, including your IP address, as they would if you opened the link yourself. Nothing passes through us.
 - The AI features use only Apple's on-device model. They do not use Private Cloud Compute.
 - Screenshots you add are read on your iPhone and are not uploaded.
 - Locked and hidden pouches use Face ID, Touch ID or your passcode through iOS. Linkpoche never receives your face data, fingerprint or passcode.
 - Linkpoche Plus is sold by Apple. Linkpoche only learns whether you own it.
+- Once a day at most, Linkpoche asks Apple's App Store whether a newer version is out. It sends only the app's ID and your App Store country.
 - Linkpoche contains no analytics SDK, no crash-reporting SDK and no advertising, and it does no tracking.
 - The app sends us nothing about you. There are two exceptions: a message you choose to send through the feedback form, and the reports Apple itself gives developers. See "If you contact us" and "What Apple tells us".
 
@@ -34,6 +35,8 @@ The app stores the following in its own storage on your iPhone:
 - Which pouches are locked or hidden.
 - On iOS 17 or later, an index for searching by meaning (see "Searching by meaning").
 - App settings, plus what For you needs to work: which links it showed today, the picks it has planned for the coming days, and the topics it read from your recent links and how close each link is to them, if "Picks from your habits" is on.
+- Which links your last bring-in added, so you can take them back (Settings > Move in > Undo the last bring-in).
+- The day Linkpoche last checked for a new version, and the version numbers it found and last showed you.
 
 The text of an article is read to estimate the reading time and to write a summary. It is kept in memory only and is not saved with the link.
 
@@ -51,18 +54,23 @@ If you back up your iPhone with iCloud Backup or to a computer, iOS includes thi
 - When a screenshot you add contains a web address, your iPhone fetches that page, as it does for any link you save.
 - When you tap Fetch again.
 - While the app is open, it goes back over links you have already saved, one at a time, to read the article text for reading time and summaries. When it writes a longer summary for a link whose text is no longer in memory, it reads that page again.
+- After you bring in links from other apps (Settings > Move in). While Linkpoche is open, on Wi-Fi and not in Low Power Mode, your iPhone fetches the brought-in links one at a time, waiting at least 3 seconds between requests to the same site, and longer if the site asks it to slow down. These requests read only the beginning of each page, up to the end of its header (at most 64 KB), and the site's icon once per site. They don't read the article text or fetch the preview picture, and they stop when you leave the app.
+- When Linkpoche shows a brought-in link (in a pouch, in its details, in For you, or among today's links in the widget while Linkpoche is open), your iPhone fetches it right away on any connection, the same way as a link you save, including its preview picture, but without reading the article text. Brought-in links to X, Instagram, Threads, TikTok and Facebook are fetched only this way, up to 50 a day for each of these sites.
+- When you open Linkpoche, at most once a day, to check whether a newer version is on the App Store (see item 6 under "To whom").
+- Never automatically: links to devices on your own network (such as a router's page, an IP address, or a name ending in .local), whether you save them one at a time or bring them in; and brought-in links whose address looks like it does something when opened (such as unsubscribe, confirm or sign-in links) or marks the recipient of an email. These links are saved as plain addresses. Tapping Fetch again still fetches them.
 
-Saving a link is what starts the fetch. There is no setting to save a link without fetching its preview.
+Saving a link is what starts the fetch, except for the links described at the end of this list, which are never fetched automatically. There is no setting to save a link without fetching its preview.
 
 ### To whom
 
-1. **The site of the link you saved, and any site it redirects to.** Your iPhone requests the page through Apple's LinkPresentation framework, the same system feature Safari and Messages use for link previews. The app also reads the page's HTML itself: the first 64 KB, or up to 1.5 MB for pages that may be articles.
+1. **The site of the link you saved, and any site it redirects to.** Your iPhone requests the page through Apple's LinkPresentation framework, the same system feature Safari and Messages use for link previews. The app also reads the page's HTML itself: the first 64 KB, or up to 1.5 MB for pages that may be articles. For links you bring in, the requests made while the app is open on Wi-Fi come from Linkpoche itself, not through LinkPresentation, and read only the beginning of the page (see "When").
 2. **Wherever that page points for its preview picture and its icon.** These are often on a different company's server, such as a content delivery network. If the page does not name an icon, the app asks the site for `/favicon.ico`.
 3. **Four services, for their own links.** For a YouTube video link, the app asks YouTube's official embed service (`www.youtube.com/oembed`) for the video title and channel. For an X post link, it asks X's official embed service (`publish.x.com/oembed`) for the post text, author and date. For an Instagram post, it reads the post's public embed page (`www.instagram.com/p/<code>/embed/captioned/`), and for a Threads post, the post's public embed page (`www.threads.com/@<user>/post/<code>/embed`), for the caption, account name and picture. None of these needs a sign-in or a key.
 
    The request to X includes X's do-not-track option (`dnt=true`). That option only asks X not to use the request for personalized suggestions and ads. The request itself, including your IP address and the link, still reaches X.
 4. **For an X post that contains a link:** X's link shortener (`t.co`), to learn where the link leads, and then that destination site, as in 1 and 2.
 5. **Apple, for language files (iOS 17 or later).** Searching by meaning uses language files that iOS downloads from Apple the first time they are needed. iOS makes that download, not Linkpoche, and none of your links, screenshots or searches are sent with it. Apple's privacy policy covers it.
+6. **Apple, for the latest version number.** When you open Linkpoche, at most once a day, the app asks Apple's public App Store lookup service (`itunes.apple.com/lookup`) for the version number of Linkpoche on the App Store. The request contains only the app's ID, which is the same for everyone, and the two-letter country of your App Store account. None of your links, screenshots, searches or settings are sent, and nothing that identifies you or your iPhone. As with any request, Apple sees your IP address. If a newer version is out, Linkpoche shows a short notice and remembers which version it showed, on your iPhone only. Apple's privacy policy covers the request.
 
 ### What they receive
 
@@ -78,13 +86,13 @@ When you open a link, the app hands it to your browser or to the app that handle
 
 ## On-device AI
 
-On iPhones where Apple Intelligence is available and turned on (iOS 26 or later), Linkpoche uses it to write short summaries, write longer summaries in the AI tab, suggest a pouch for a new link, pick links based on your recent interests, write a short title for a screenshot, and suggest up to three related words when you search.
+On iPhones where Apple Intelligence is available and turned on (iOS 26 or later), Linkpoche uses it to write short summaries, write longer summaries in the AI tab, suggest a pouch for a new link, pick links based on your recent interests, write a short title for a screenshot, suggest up to three related words when you search, and, when you bring in a file, tell which of its columns hold titles, folders, tags, dates or read status.
 
 - It uses only the on-device model in Apple's Foundation Models framework. It does not use Private Cloud Compute, so the AI features never send your links anywhere.
-- What the model reads: a link's title, description and the start of its article text; the text read from a screenshot; the words you type in search; your pouch names and the titles of a few links in each; and the titles, site names and summaries of links you saved recently.
+- What the model reads: a link's title, description and the start of its article text; the text read from a screenshot; the words you type in search; your pouch names and the titles of a few links in each; the titles, site names and summaries of links you saved recently; and, for a file you bring in, up to 40 column names and up to three short samples from each column (60 characters at most), with simple counts such as how many values look like web links or dates. Before the model sees them, email addresses, phone numbers, long numbers and long random strings are masked, samples containing password-like words are left out, and column names containing such words are masked. Columns that look sensitive, and entries written next to a password, are not shown to the model at all. The model only names a column for each role. It never returns the values, and Linkpoche copies the values from the file itself.
 - Measuring how close a link is to your interests uses Apple's NaturalLanguage framework, which also runs on your iPhone.
 - The On-device AI section in Settings has three switches: Write summaries, Light up where it goes and Picks from your habits. All three are on by default. Turning off Write summaries stops new summaries and hides the ones already written. Turning off Picks from your habits deletes the topics and closeness scores from your iPhone.
-- Turning off Write summaries also stops the on-device AI from writing titles for new screenshots. Related search words aren't covered by these three switches. They appear only while Apple Intelligence is available and turned on.
+- Turning off Write summaries also stops the on-device AI from writing titles for new screenshots. Related search words aren't covered by these three switches. They appear only while Apple Intelligence is available and turned on. Reading the columns of a file you bring in isn't covered by these three switches either. It runs only while Apple Intelligence is available and turned on, and bringing in links works without it.
 
 ## Screenshots
 
@@ -127,10 +135,13 @@ Linkpoche Plus is an optional one-time purchase. Apple sells it and handles the 
 
 To offer a paste shortcut, the app asks iOS only whether the clipboard appears to hold a web link. iOS answers this without showing the app what the clipboard contains. The app reads the clipboard only when you tap to paste, and iOS asks your permission at that moment. The Shortcuts action receives the link from your shortcut; the app itself does not touch the clipboard.
 
+When you tap Paste copied links under Move in, Linkpoche reads the copied text. iOS may ask you to allow pasting first. Only the web links found in it are kept, and the rest of the text is not stored.
+
 ## Export and import
 
 - Export puts your links, everything saved with them (including notes and summaries), your screenshots, your pouches and their pictures into a zip file and opens the share sheet. Locked and hidden pouches are included, and the zip file itself isn't locked. You choose where it goes. A copy stays in the app's temporary folder until your next export replaces it or iOS clears temporary files.
 - Import reads a zip file you choose. The app deletes its own copy of the file after reading it.
+- Bring in (Settings > Move in) reads files you choose, or text you copied, on your iPhone. Nothing from them is uploaded. Linkpoche keeps only the web links it finds, with the title, the date saved and whether it was read when the file has them, and deletes its own copy of the files after reading them. Files that look like passwords, browsing history, email, chats, contacts or follower lists are left out as a whole. To tell, Linkpoche reads only names such as column names, field names and labels, and does not keep, send or record the values. Links with a sign-in name or password inside are not saved.
 
 ## Deleting
 
@@ -190,7 +201,7 @@ Feedback form: https://forms.gle/GqJSQ4cF1YpSt5vx5
 
 ## 日本語
 
-最終更新日: 2026-10-06
+最終更新日: 2026-10-10
 
 Linkpoche は、保存したリンクを iPhone の中に置いておくアプリです。お使いの方に関するデータは集めていません。分析のためにも、広告のためにも集めず、匿名化や集計をした形でも集めません。ただし、インターネットにはつながります。リンクごとに題と絵を出すため、保存したサイトから iPhone が直接取りにいきます。それが何を意味するのかを、以下に項目ごとに書きます。「プライバシーを大切にしています」という一文では、何も伝わらないからです。
 
@@ -199,11 +210,12 @@ Linkpoche は、保存したリンクを iPhone の中に置いておくアプ�
 ### 要約
 
 - 保存したものは、すべて iPhone の中にあります。リンク、スクショ、題、絵、メモ、ポーチ、概要が含まれます。Linkpoche のサーバーはなく、アカウントもサインインもありません。
-- プレビューを作るため、保存したリンクのサイトと、下に挙げるいくつかのサービスに iPhone が直接つなぎます。相手のサイトには、ご自分でリンクを開いたときと同じように、IP アドレスを含むリクエストが届きます。私たちを経由するものはありません。
+- プレビューを作るため、保存したリンクのサイトと、下に挙げるいくつかのサービスに iPhone が直接つなぎます。ほかのアプリから入れたリンクも同じように取りにいきます。そのときは記事の本文を読みません。相手のサイトには、ご自分でリンクを開いたときと同じように、IP アドレスを含むリクエストが届きます。私たちを経由するものはありません。
 - AI の機能が使うのは、Apple の端末内のモデルだけです。Private Cloud Compute は使いません。
 - 入れたスクショは iPhone の中で読み取り、アップロードしません。
 - 鍵付き・隠しのポーチは、iOS を通して Face ID・Touch ID・パスコードを使います。顔や指紋のデータ、パスコードが Linkpoche に届くことはありません。
 - Linkpoche Plus を販売しているのは Apple です。Linkpoche が知るのは、Plus を持っているかどうかだけです。
+- 新しい版が出ているかを確かめるため、1 日 1 回まで Apple の App Store に問い合わせます。送るのはアプリの ID と App Store の国だけです。
 - 分析の SDK、クラッシュ報告の SDK、広告は入っておらず、トラッキングもしません。
 - アプリからあなたの情報が私たちに届くことはありません。例外は 2 つです。ご自分でフォームから送ったお便りと、Apple が開発者に渡す報告です（「お問い合わせについて」「Apple から届くもの」を参照）。
 
@@ -219,6 +231,8 @@ Linkpoche は、保存したリンクを iPhone の中に置いておくアプ�
 - どのポーチに鍵をかけているか、どのポーチを隠しているか
 - iOS 17 以降では、意味で探すための索引（「意味で探す」を参照）
 - アプリの設定と、For you の動作に必要な記録。今日出したリンク、この先の数日ぶんの予定、「傾向でおすすめ」がオンなら最近のリンクから読んだ話題と、各リンクがその話題にどれだけ近いかです
+- 前回入れたのがどのリンクか（「設定」の「引っ越し」の「前回入れた分を取り消す」のため）
+- 新しい版を最後に確かめた日と、見つけた版・最後に知らせた版の番号
 
 記事の本文は、読む時間の目安と概要を作るために読みます。読んだ本文はメモリの中に置くだけで、リンクと一緒には保存しません。
 
@@ -236,18 +250,23 @@ iCloud バックアップやコンピュータで iPhone をバックアップ�
 - 入れたスクショに Web のアドレスが書いてあったとき。保存したほかのリンクと同じように、iPhone がそのページを取りにいきます
 - 「取り直す」を押したとき
 - アプリを開いているあいだ、保存済みのリンクを 1 件ずつ読み直して、読む時間と概要のための本文を取ります。本文がもうメモリにないリンクの長い概要を作るときも、そのページをもう一度読みます
+- ほかのアプリからリンクを入れたあと（「設定」の「引っ越し」）。Linkpoche を開いていて、Wi-Fi につながっていて、低電力モードでないあいだ、iPhone が入れたリンクを 1 件ずつ取りにいきます。同じサイトへは 3 秒以上あけ、相手が控えるよう求めたときはさらにあけます。読むのは各ページの先頭から見出し部分の終わりまで（最大 64 KB）と、サイトごとに 1 回のアイコンだけです。記事の本文とプレビューの絵は取らず、アプリを離れると止まります
+- 入れたリンクを Linkpoche が画面に出したとき（ポーチの中、詳細、おすすめ、Linkpoche を開いているあいだのウィジェットの今日の顔ぶれ）。回線を問わずすぐに、保存したリンクと同じ方法で、プレビューの絵も含めて取りにいきます。記事の本文は読みません。入れたリンクのうち X・Instagram・Threads・TikTok・Facebook のものは、この形でだけ、それぞれ 1 日 50 件まで取りにいきます
+- Linkpoche を開いたとき（1 日 1 回まで）。App Store に新しい版が出ているかを確かめます（「どこへ」の 6）
+- 自動では取りにいかないリンク: 家の中の機器へのリンク（ルーターの設定画面、IP アドレス、.local で終わる名前など。1 件ずつ保存しても、まとめて入れても同じ）と、入れたリンクのうち、開くと何かが起きそうなアドレス（配信停止・確認・サインインのリンクなど）や、メールの受け手を表す印が付いたもの。これらはアドレスのまま保存します。「取り直す」を押せば取りにいきます
 
-取得のきっかけはリンクの保存です。プレビューを取らずにリンクだけ保存する設定はありません。
+取得のきっかけはリンクの保存です。ただし、この箇条の最後に書いたリンクは自動では取りにいきません。プレビューを取らずにリンクだけ保存する設定はありません。
 
 #### どこへ
 
-1. **保存したリンクのサイトと、そこから転送された先のサイト。** Apple の LinkPresentation を通してページを取りにいきます。Safari やメッセージがリンクのプレビューに使うのと同じ、iOS の標準機能です。アプリ自身もページの HTML を読みます。読むのは先頭 64 KB までで、記事かもしれないページだけ 1.5 MB まで読みます。
+1. **保存したリンクのサイトと、そこから転送された先のサイト。** Apple の LinkPresentation を通してページを取りにいきます。Safari やメッセージがリンクのプレビューに使うのと同じ、iOS の標準機能です。アプリ自身もページの HTML を読みます。読むのは先頭 64 KB までで、記事かもしれないページだけ 1.5 MB まで読みます。入れたリンクを Wi-Fi のときに取りにいく要求は、LinkPresentation を通さず Linkpoche が自分で送り、ページの先頭だけを読みます（「いつ」を参照）。
 2. **そのページが、プレビューの絵とアイコンの置き場として指している先。** コンテンツ配信網など、別の会社のサーバーであることがよくあります。アイコンを指定していないページには、そのサイトの `/favicon.ico` を取りにいきます。
 3. **4 つのサービス（それぞれのリンクのときだけ）。** YouTube の動画リンクでは、YouTube 公式の埋め込みの窓口（`www.youtube.com/oembed`）に動画の題とチャンネルを尋ねます。X の投稿リンクでは、X 公式の埋め込みの窓口（`publish.x.com/oembed`）に投稿の本文・投稿者・日付を尋ねます。Instagram の投稿では投稿の公開の埋め込みページ（`www.instagram.com/p/<code>/embed/captioned/`）を、Threads の投稿では投稿の公開の埋め込みページ（`www.threads.com/@<user>/post/<code>/embed`）を読み、キャプション・アカウント名・写真を取ります。どれもサインインや鍵は要りません。
 
    X への問い合わせには、X の追跡拒否の指定（`dnt=true`）を付けています。この指定は、個人向けのおすすめや広告にその問い合わせを使わないよう X に求めるだけです。IP アドレスとリンクを含む問い合わせそのものは X に届きます。
 4. **リンクを含む X の投稿のとき:** 行き先を知るために X の短縮 URL の窓口（`t.co`）につなぎ、そのあと行き先のサイトに 1・2 と同じようにつなぎます。
 5. **Apple（言語のデータ。iOS 17 以降）。** 意味で探すには、iOS が最初に必要になったときに Apple からダウンロードする言語のデータを使います。ダウンロードするのは iOS で、Linkpoche ではありません。そのときにリンク・スクショ・検索した言葉を送ることはありません。扱いは Apple のプライバシーポリシーに従います。
+6. **Apple（最新の版の番号）。** Linkpoche を開いたとき、1 日 1 回まで、Apple が公開している App Store の検索の窓口（`itunes.apple.com/lookup`）に、App Store にある Linkpoche の版の番号を問い合わせます。送るのは、アプリの ID（全員で同じ値）と、App Store のアカウントの国を表す 2 文字だけです。リンク・スクショ・検索した言葉・設定は送りません。あなたや iPhone を見分けるものも送りません。ほかの通信と同じく、IP アドレスは Apple に届きます。新しい版があれば短い知らせを出し、どの版を知らせたかを iPhone の中だけに覚えます。扱いは Apple のプライバシーポリシーに従います。
 
 #### 相手に届くもの
 
@@ -263,13 +282,13 @@ iCloud バックアップやコンピュータで iPhone をバックアップ�
 
 ### 端末内 AI
 
-Apple Intelligence が使えて、オンになっている iPhone（iOS 26 以降）では、Linkpoche はそれを使って短い概要と AI タブの長い概要を作り、新しいリンクの行き先のポーチを示し、最近の関心からおすすめを選び、スクショに短いタイトルを付け、検索のときに近い言葉を 3 つまで挙げます。
+Apple Intelligence が使えて、オンになっている iPhone（iOS 26 以降）では、Linkpoche はそれを使って短い概要と AI タブの長い概要を作り、新しいリンクの行き先のポーチを示し、最近の関心からおすすめを選び、スクショに短いタイトルを付け、検索のときに近い言葉を 3 つまで挙げ、ファイルからリンクを入れるときは、どの列が題・フォルダ・タグ・日付・既読かを見分けます。
 
 - 使うのは Apple の Foundation Models の端末内のモデルだけで、Private Cloud Compute は使いません。AI の機能がリンクを外へ送ることはありません。
-- モデルが読むもの: リンクの題・説明文・本文の先頭、スクショから読み取った文字、検索に打った言葉、ポーチの名前と各ポーチのリンクの題を数件、最近保存したリンクの題・サイト名・概要です。
+- モデルが読むもの: リンクの題・説明文・本文の先頭、スクショから読み取った文字、検索に打った言葉、ポーチの名前と各ポーチのリンクの題を数件、最近保存したリンクの題・サイト名・概要、入れるファイルの列名（40 列まで）と各列の短い見本 3 件まで（各 60 字まで）、値のうち Web のリンクや日付らしいものの割合などの数です。モデルに見せる前に、メールアドレス・電話番号・長い数字・長い乱数の文字列を伏せ字にし、パスワードの類の語を含む見本は外し、そうした語を含む列名は伏せます。機微と見た列と、パスワードの隣に書かれた項目は、モデルにまったく見せません。モデルが返すのは役ごとの列の名札だけで、値は返さず、値は Linkpoche がファイルから写します。
 - リンクが関心にどれだけ近いかは、Apple の NaturalLanguage で測ります。これも iPhone の中で動きます。
 - 設定の「端末内 AI」にスイッチが 3 つあります（「概要を作る」「行き先を照らす」「傾向でおすすめ」）。どれも最初はオンです。「概要を作る」を切ると、新しい概要を作らず、作った概要も表示しなくなります。「傾向でおすすめ」を切ると、話題と近さの記録を iPhone から消します。
-- 「概要を作る」を切ると、新しく入れたスクショのタイトルも端末内 AI では作りません。検索の近い言葉は、この 3 つの切り替えの対象ではありません。Apple Intelligence が使えて、オンになっているときだけ出ます。
+- 「概要を作る」を切ると、新しく入れたスクショのタイトルも端末内 AI では作りません。検索の近い言葉は、この 3 つの切り替えの対象ではありません。Apple Intelligence が使えて、オンになっているときだけ出ます。入れるファイルの列を見分けるのも、この 3 つの切り替えの対象ではありません。Apple Intelligence が使えて、オンになっているときだけ動き、使えなくてもリンクは入れられます。
 
 ### スクショ
 
@@ -312,10 +331,13 @@ Linkpoche Plus は、必要な人だけが買う 1 回きりの購入です。�
 
 貼り付けの近道を出すため、アプリはクリップボードに「Web のリンクらしきものがあるか」だけを iOS に尋ねます。iOS は、クリップボードの中身をアプリに見せずにこれに答えます。中身を読むのは貼り付けを押したときだけで、そのとき iOS が許可を求めます。ショートカットのアクションはショートカットからリンクを受け取るので、アプリ自身はクリップボードに触れません。
 
+「引っ越し」の「コピーしたリンクを貼る」を押したときは、コピーした文を読みます。その前に iOS が貼り付けの許可を求めることがあります。残すのは見つかった Web のリンクだけで、ほかの文は保存しません。
+
 ### 書き出しと取り込み
 
 - 書き出しは、リンクと一緒に保存しているものすべて（メモと概要を含む）、スクショ、ポーチ、絵を zip にまとめ、共有シートを開きます。鍵付き・隠しのポーチも入り、zip そのものには鍵がかかりません。行き先はご自分で選びます。控えは、次に書き出して置き換わるか、iOS が一時ファイルを片付けるまで、アプリの一時フォルダに残ります。
 - 取り込みは、ご自分で選んだ zip を読みます。読み終えたら、アプリが持っている複製を消します。
+- 「設定」の「引っ越し」からリンクを入れるときは、選んだファイルやコピーした文を iPhone の中で読みます。アップロードはしません。残すのは見つかった Web のリンクと、ファイルにあればその題・保存した日・既読かどうかだけで、読み終えたらアプリが持っている複製を消します。パスワード・閲覧履歴・メール・チャット・連絡先・フォロワーの一覧らしいファイルは、丸ごと入れません。見分けるために読むのは列名・項目名・ラベルなどの名前だけで、値は残さず、送らず、記録もしません。ログインの名前やパスワードを含むリンクは保存しません。
 
 ### 削除
 

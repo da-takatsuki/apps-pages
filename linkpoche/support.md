@@ -13,6 +13,7 @@ Linkpoche collects the links and screenshots you share from other apps in one In
 
 - **Save a link.** In another app, tap Share and choose Linkpoche. The share sheet closes right away. You can also copy a link and tap Paste in the empty Inbox.
 - **Save a screenshot.** Share up to 10 at a time from Photos, or tap + on Home and choose Add screenshots. They land at the top of your Inbox.
+- **Bring in links you already have.** In Settings, under Move in, tap Bring in links, then Choose files or Paste copied links. You see what was found before anything is added, and the links go to Read later.
 - **Sort it.** Open Linkpoche and flick the top link down into a pouch. Swipe left to delete, or right for Read later. You can change what each swipe does in Settings.
 - **Find it again.** The Pouches tab shows your pouches and lets you search everything you saved. For you, on Home, brings back up to 10 links from your pouches each day.
 - **Widget.** Touch and hold the Home Screen, tap Edit, then Add Widget, and choose Linkpoche. Today's rediscoveries comes in small and medium sizes and needs iOS 17 or later.
@@ -36,6 +37,8 @@ That is how it is meant to work. When the link is saved, the share sheet simply 
 ### Why does a link have no picture, or a title that says little?
 
 Linkpoche can only show what a site publishes for link previews, and it never signs in anywhere, so pages behind a login give little. Some sites return the same title or picture for every link, some return nothing, and any site can change what it returns. The link itself is always saved and still opens. To try again, open the link and tap Fetch again.
+
+Links you brought in from another app fill in gradually (see "How do I bring in links from another app?"). Links to devices on your own network, such as a router's page, are saved without a preview. Tap Fetch again on the link to try.
 
 ### The AI features are missing, or Settings says "Not available"
 
@@ -62,6 +65,19 @@ Your regular iPhone backup (iCloud Backup, or a backup on a computer with Finder
 
 Linkpoche Plus comes back with Restore Purchases, not with your links. See "How do I get Plus back on a new iPhone".
 
+### How do I bring in links from another app?
+
+In Settings, under Move in, tap Bring in links, then Choose files or Paste copied links.
+
+- **What it can read:** bookmark files from a browser, exports from other apps, spreadsheets saved as CSV, JSON, HTML, Markdown and plain text, and a zip of these. It can't read PDF or Office files, a locked zip, or a zip inside a zip.
+- **Before anything is added,** you see how many links were found, how many are already in Linkpoche, and what was left out.
+- **What's left out:** files that look like passwords, browsing history, email, chats, contacts, or follower lists, and links with a sign-in name or password inside. Only web links written in the file come in.
+- **Where they go:** Read later, up to 10,000 links at a time. Bring in again to add the rest; links you already have are skipped. The title, the date saved, and whether it was read come along when the file has them.
+- **Undo:** Settings > Move in > Undo the last bring-in, until your next bring-in. Links you renamed, wrote a note on, or moved to a pouch stay.
+- **Titles and pictures:** titles and icons fill in a little at a time while Linkpoche is open on Wi-Fi and not in Low Power Mode. Links you're looking at load first, and their pictures load then. Links to X, Instagram, Threads, TikTok, and Facebook load only when they appear on screen.
+
+Your files are read on your iPhone and are not uploaded. To restore a zip you exported from Linkpoche, use Settings > Backup > Import instead.
+
 ### How do I get a deleted link back?
 
 - Right after deleting, tap **Undo**. It stays on screen for 6 seconds.
@@ -77,6 +93,16 @@ You can make up to 8 pouches for free, and up to 24 with Linkpoche Plus. Pouches
 ### The widget is empty
 
 The widget shows links you have put in a pouch. Flick at least one link from the Inbox into a pouch, and it will appear.
+
+### A link won't open
+
+Linkpoche hands links to your default browser. If it can't, it opens the link in Safari (iOS 17 or later). If a link still won't open, for example on iOS 16 or after Safari was removed, choose Safari as your default browser app and try again.
+
+### What is the "Version ... is available" notice?
+
+When a newer version of Linkpoche is on the App Store, a notice shows on Home for a few seconds. Tap Update to open the App Store. Each version is announced once. Linkpoche doesn't update itself.
+
+To check, Linkpoche asks Apple's App Store at most once a day, when you open it. It sends only the app's ID and your App Store country, nothing about you or your links. See the privacy policy.
 
 ### Linkpoche is using a lot of storage
 
@@ -208,6 +234,7 @@ Linkpoche は、ほかのアプリから共有したリンクやスクショを 
 
 - **保存する。** ほかのアプリで共有を押し、Linkpoche を選びます。共有シートはその場で閉じます。リンクをコピーして、空の受信箱の「貼り付ける」を押しても保存できます。
 - **スクショを入れる。** 写真アプリなどから一度に 10 枚まで共有するか、ホームの＋から「スクショを入れる」を選びます。受信箱のいちばん上に積まれます。
+- **持っているリンクを入れる。** 「設定」の「引っ越し」にある「ほかのアプリから入れる」を押し、「ファイルを選ぶ」か「コピーしたリンクを貼る」を選びます。入れる前に見つかったものを確かめられ、リンクは「あとで見る」に入ります。
 - **仕分ける。** Linkpoche を開き、一番上のリンクを下のポーチへ払います。左へ払うと削除、右へ払うと「あとで見る」へ。払う向きごとの動きは設定で変えられます。
 - **あとから見つける。** 「ポーチ」タブにポーチが並び、保存したものすべてを検索できます。ホームの「おすすめ」には、毎日ポーチから最大 10 件が戻ってきます。
 - **ウィジェット。** ホーム画面を長押しして「編集」から「ウィジェットを追加」を押し、Linkpoche を選びます。「今日の再会」は小と中の 2 つの大きさで、iOS 17 以降で使えます。
@@ -231,6 +258,8 @@ Linkpoche が保存するのは、ウェブのリンク（http か https で始�
 ### 画像が出ない、題が分かりにくい
 
 Linkpoche が出せるのは、サイトがリンクのプレビュー用に公開している情報だけです。どこにもログインしないので、ログインが必要なページはほとんど何も出ません。どのリンクにも同じ題や画像を返すサイト、何も返さないサイトもあり、返す内容はサイトの都合で変わります。それでもリンクは保存され、開けます。もう一度取得するには、リンクを開いて「取り直す」を押してください。
+
+ほかのアプリから入れたリンクは、少しずつそろいます（「ほかのアプリからリンクを入れたい」を参照）。家の中の機器へのリンク（ルーターの設定画面など）は、プレビューを取らずに保存します。試すときは、そのリンクの「取り直す」を押してください。
 
 ### AI の機能が出ない、設定に「使えません」と出る
 
@@ -257,6 +286,19 @@ iPhone のふだんのバックアップ（iCloud バックアップ、または
 
 Linkpoche Plus は「購入を復元」で戻ります。リンクは一緒には戻りません。「新しい iPhone や入れ直したあとに Plus を戻すには」をご覧ください。
 
+### ほかのアプリからリンクを入れたい
+
+「設定」の「引っ越し」にある「ほかのアプリから入れる」を押し、「ファイルを選ぶ」か「コピーしたリンクを貼る」を選びます。
+
+- **読めるもの:** ブラウザのブックマークのファイル、ほかのアプリの書き出し、CSV で保存した表、JSON・HTML・Markdown・テキスト、それらをまとめた zip。PDF・Office のファイル、鍵付きの zip、zip の中の zip は読めません。
+- **入れる前に、** 見つかった数、Linkpoche にもうある数、入れなかったものを確かめられます。
+- **入れないもの:** パスワード・閲覧履歴・メール・チャット・連絡先・フォロワーの一覧らしいファイルと、ログインの名前やパスワードを含むリンク。入るのは、ファイルに書いてある Web のリンクだけです。
+- **入る先:** 「あとで見る」。一度に 10,000 件まで入ります。残りはもう一度入れれば入り、保存済みのリンクは飛ばします。ファイルにあれば、題・保存した日・既読かどうかも一緒に入ります。
+- **取り消す:** 「設定」の「引っ越し」の「前回入れた分を取り消す」。次に入れるまで使えます。名前・メモを付けたものと、ポーチへ移したものは残ります。
+- **題と絵:** 題とアイコンは、Linkpoche を開いていて、Wi-Fi で、低電力モードでないときに少しずつそろいます。見ているリンクが先で、絵もそのときに届きます。X・Instagram・Threads・TikTok・Facebook のリンクは、画面に出たときだけ取りにいきます。
+
+ファイルは iPhone の中で読み、アップロードしません。Linkpoche から書き出した zip を戻すときは、「設定」の「バックアップ」の「取り込む」を使ってください。
+
 ### 削除したリンクを戻したい
 
 - 削除した直後なら「取り消す」を押します。6 秒間出ています。
@@ -272,6 +314,16 @@ Linkpoche Plus は「購入を復元」で戻ります。リンクは一緒に�
 ### ウィジェットに何も出ない
 
 ウィジェットに出るのは、ポーチに入れたリンクです。受信箱のリンクを 1 件でもポーチへ払うと出るようになります。
+
+### リンクが開けない
+
+Linkpoche はリンクを既定のブラウザに渡します。渡せなかったときは、Safari で開きます（iOS 17 以降）。それでも開けないとき（iOS 16、Safari を削除した場合など）は、既定のブラウザを Safari にしてからもう一度試してください。
+
+### 「バージョン … が出ています」と出た
+
+App Store に新しい版が出ていると、ホームに数秒だけお知らせが出ます。「アップデート」を押すと App Store が開きます。同じ版のお知らせは 1 回だけです。Linkpoche が自分で更新することはありません。
+
+確かめるため、Linkpoche は開いたときに 1 日 1 回まで Apple の App Store に問い合わせます。送るのはアプリの ID と App Store の国だけで、あなたやリンクのことは送りません。詳しくはプライバシーポリシーをご覧ください。
 
 ### 容量が大きい
 
