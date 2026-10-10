@@ -57,7 +57,7 @@ If you back up your iPhone with iCloud Backup or to a computer, iOS includes thi
 - After you bring in links from other apps (Settings > Move in). While Linkpoche is open, on Wi-Fi and not in Low Power Mode, your iPhone fetches the brought-in links one at a time, waiting at least 3 seconds between requests to the same site, and longer if the site asks it to slow down. These requests read only the beginning of each page, up to the end of its header (at most 64 KB), and the site's icon once per site. They don't read the article text or fetch the preview picture, and they stop when you leave the app.
 - When Linkpoche shows a brought-in link (in a pouch, in its details, in For you, or among today's links in the widget while Linkpoche is open), your iPhone fetches it right away on any connection, the same way as a link you save, including its preview picture, but without reading the article text. Brought-in links to X, Instagram, Threads, TikTok and Facebook are fetched only this way, up to 50 a day for each of these sites.
 - When you open Linkpoche, at most once a day, to check whether a newer version is on the App Store (see item 6 under "To whom").
-- Never automatically: links to devices on your own network (such as a router's page, an IP address, or a name ending in .local), whether you save them one at a time or bring them in; and brought-in links whose address looks like it does something when opened (such as unsubscribe, confirm or sign-in links) or marks the recipient of an email. These links are saved as plain addresses. Tapping Fetch again still fetches them.
+- Never automatically: links to devices on your own network (such as a router's page, an IP address, a name ending in .local, or a name that leads to an address on your own network), whether you save them one at a time or bring them in; and brought-in links whose address looks like it does something when opened (such as unsubscribe, confirm or sign-in links) or marks the recipient of an email. These links are saved as plain addresses. Tapping Fetch again still fetches them.
 
 Saving a link is what starts the fetch, except for the links described at the end of this list, which are never fetched automatically. There is no setting to save a link without fetching its preview.
 
@@ -141,7 +141,7 @@ When you tap Paste copied links under Move in, Linkpoche reads the copied text. 
 
 - Export puts your links, everything saved with them (including notes and summaries), your screenshots, your pouches and their pictures into a zip file and opens the share sheet. Locked and hidden pouches are included, and the zip file itself isn't locked. You choose where it goes. A copy stays in the app's temporary folder until your next export replaces it or iOS clears temporary files.
 - Import reads a zip file you choose. The app deletes its own copy of the file after reading it.
-- Bring in (Settings > Move in) reads files you choose, or text you copied, on your iPhone. Nothing from them is uploaded. Linkpoche keeps only the web links it finds, with the title, the date saved and whether it was read when the file has them, and deletes its own copy of the files after reading them. Files that look like passwords, browsing history, email, chats, contacts or follower lists are left out as a whole. To tell, Linkpoche reads only names such as column names, field names and labels, and does not keep, send or record the values. Links with a sign-in name or password inside are not saved.
+- Bring in (Settings > Move in) reads files you choose, or text you copied, on your iPhone. Nothing from them is uploaded. Linkpoche keeps only the web links it finds, with the title, the date saved and whether it was read when the file has them, and deletes its own copy of the files after reading them. Files that look like passwords, browsing history, email, chats, contacts or follower lists are left out as a whole. To tell, Linkpoche looks, on your iPhone, at names such as column names, field names and labels, and at the shape of the values, such as card numbers, email headers, chat logs and one-time-password setup links (otpauth://). It looks only to decide on the spot what to leave out. For this, it does not keep, send or record the values, and does not give them to the on-device AI. Links with a sign-in name or password inside are not saved.
 
 ## Deleting
 
@@ -253,7 +253,7 @@ iCloud バックアップやコンピュータで iPhone をバックアップ�
 - ほかのアプリからリンクを入れたあと（「設定」の「引っ越し」）。Linkpoche を開いていて、Wi-Fi につながっていて、低電力モードでないあいだ、iPhone が入れたリンクを 1 件ずつ取りにいきます。同じサイトへは 3 秒以上あけ、相手が控えるよう求めたときはさらにあけます。読むのは各ページの先頭から見出し部分の終わりまで（最大 64 KB）と、サイトごとに 1 回のアイコンだけです。記事の本文とプレビューの絵は取らず、アプリを離れると止まります
 - 入れたリンクを Linkpoche が画面に出したとき（ポーチの中、詳細、おすすめ、Linkpoche を開いているあいだのウィジェットの今日の顔ぶれ）。回線を問わずすぐに、保存したリンクと同じ方法で、プレビューの絵も含めて取りにいきます。記事の本文は読みません。入れたリンクのうち X・Instagram・Threads・TikTok・Facebook のものは、この形でだけ、それぞれ 1 日 50 件まで取りにいきます
 - Linkpoche を開いたとき（1 日 1 回まで）。App Store に新しい版が出ているかを確かめます（「どこへ」の 6）
-- 自動では取りにいかないリンク: 家の中の機器へのリンク（ルーターの設定画面、IP アドレス、.local で終わる名前など。1 件ずつ保存しても、まとめて入れても同じ）と、入れたリンクのうち、開くと何かが起きそうなアドレス（配信停止・確認・サインインのリンクなど）や、メールの受け手を表す印が付いたもの。これらはアドレスのまま保存します。「取り直す」を押せば取りにいきます
+- 自動では取りにいかないリンク: 家の中の機器へのリンク（ルーターの設定画面、IP アドレス、.local で終わる名前、引くと家の中のアドレスになる名前など。1 件ずつ保存しても、まとめて入れても同じ）と、入れたリンクのうち、開くと何かが起きそうなアドレス（配信停止・確認・サインインのリンクなど）や、メールの受け手を表す印が付いたもの。これらはアドレスのまま保存します。「取り直す」を押せば取りにいきます
 
 取得のきっかけはリンクの保存です。ただし、この箇条の最後に書いたリンクは自動では取りにいきません。プレビューを取らずにリンクだけ保存する設定はありません。
 
@@ -337,7 +337,7 @@ Linkpoche Plus は、必要な人だけが買う 1 回きりの購入です。�
 
 - 書き出しは、リンクと一緒に保存しているものすべて（メモと概要を含む）、スクショ、ポーチ、絵を zip にまとめ、共有シートを開きます。鍵付き・隠しのポーチも入り、zip そのものには鍵がかかりません。行き先はご自分で選びます。控えは、次に書き出して置き換わるか、iOS が一時ファイルを片付けるまで、アプリの一時フォルダに残ります。
 - 取り込みは、ご自分で選んだ zip を読みます。読み終えたら、アプリが持っている複製を消します。
-- 「設定」の「引っ越し」からリンクを入れるときは、選んだファイルやコピーした文を iPhone の中で読みます。アップロードはしません。残すのは見つかった Web のリンクと、ファイルにあればその題・保存した日・既読かどうかだけで、読み終えたらアプリが持っている複製を消します。パスワード・閲覧履歴・メール・チャット・連絡先・フォロワーの一覧らしいファイルは、丸ごと入れません。見分けるために読むのは列名・項目名・ラベルなどの名前だけで、値は残さず、送らず、記録もしません。ログインの名前やパスワードを含むリンクは保存しません。
+- 「設定」の「引っ越し」からリンクを入れるときは、選んだファイルやコピーした文を iPhone の中で読みます。アップロードはしません。残すのは見つかった Web のリンクと、ファイルにあればその題・保存した日・既読かどうかだけで、読み終えたらアプリが持っている複製を消します。パスワード・閲覧履歴・メール・チャット・連絡先・フォロワーの一覧らしいファイルは、丸ごと入れません。見分けるために、列名・項目名・ラベルなどの名前と、値の形（カード番号、メールの見出し、トークの記録、ワンタイムパスワードの設定用リンク（otpauth://）など）を iPhone の中で見ます。見るのは、入れないものをその場で決めるためだけです。そのために値を残したり、送ったり、記録したり、端末内の AI に渡したりはしません。ログインの名前やパスワードを含むリンクは保存しません。
 
 ### 削除
 

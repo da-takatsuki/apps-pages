@@ -96,7 +96,7 @@ The widget shows links you have put in a pouch. Flick at least one link from the
 
 ### A link won't open
 
-Linkpoche hands links to your default browser. If it can't, it opens the link in Safari (iOS 17 or later). If a link still won't open, for example on iOS 16 or after Safari was removed, choose Safari as your default browser app and try again.
+Linkpoche hands links to your default browser. If a link won't open, choose Safari as your default browser app and try again.
 
 ### What is the "Version ... is available" notice?
 
@@ -317,7 +317,7 @@ Linkpoche Plus は「購入を復元」で戻ります。リンクは一緒に�
 
 ### リンクが開けない
 
-Linkpoche はリンクを既定のブラウザに渡します。渡せなかったときは、Safari で開きます（iOS 17 以降）。それでも開けないとき（iOS 16、Safari を削除した場合など）は、既定のブラウザを Safari にしてからもう一度試してください。
+Linkpoche はリンクを既定のブラウザに渡します。開けないときは、既定のブラウザを Safari にしてからもう一度試してください。
 
 ### 「バージョン … が出ています」と出た
 
