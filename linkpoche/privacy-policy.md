@@ -5,7 +5,7 @@ title: Linkpoche Privacy Policy
 
 # Linkpoche Privacy Policy
 
-Last updated: 2026-10-10
+Last updated: 2026-10-11
 
 Linkpoche keeps the links you save on your iPhone, and it does not collect any data about you: not for analytics, not for advertising, not in anonymized or aggregated form. It does connect to the internet, though. To show a title and a picture for each link, your iPhone fetches them directly from the sites you saved. This page explains exactly what that involves, item by item, because a sentence saying we care about your privacy doesn't tell you anything.
 
@@ -82,7 +82,7 @@ They do not receive an account, an identifier, your notes, your other links or a
 
 "No tracking" on this page means that we, the developer, do not track you. We cannot control what a site, X, Google (YouTube) or Meta (Instagram and Threads) keeps in its own server logs.
 
-When you open a link, the app hands it to your browser or to the app that handles it. From there, that app makes the connection.
+When you open a link, the app hands it to your browser or to the app that handles it. From there, that app makes the connection. If the link can't be handed over, a web link opens instead in a Safari view inside Linkpoche, provided by Apple (SFSafariViewController), and that view loads the page. By Apple's design, Linkpoche can't see what you do in that view, or its AutoFill data, browsing history or website data. Its website data, such as sign-ins, is kept separate from Safari.
 
 ## On-device AI
 
@@ -201,7 +201,7 @@ Feedback form: https://forms.gle/GqJSQ4cF1YpSt5vx5
 
 ## 日本語
 
-最終更新日: 2026-10-10
+最終更新日: 2026-10-11
 
 Linkpoche は、保存したリンクを iPhone の中に置いておくアプリです。お使いの方に関するデータは集めていません。分析のためにも、広告のためにも集めず、匿名化や集計をした形でも集めません。ただし、インターネットにはつながります。リンクごとに題と絵を出すため、保存したサイトから iPhone が直接取りにいきます。それが何を意味するのかを、以下に項目ごとに書きます。「プライバシーを大切にしています」という一文では、何も伝わらないからです。
 
@@ -278,7 +278,7 @@ iCloud バックアップやコンピュータで iPhone をバックアップ�
 
 このページの「トラッキングしません」は、開発者である私たちがあなたを追跡しないという意味です。相手のサイトや、X・Google（YouTube）・Meta（Instagram・Threads）が自分のサーバーの記録に何を残すかは、私たちには決められません。
 
-リンクを開くと、アプリはそのリンクをブラウザか、そのリンクを扱うアプリに渡します。そこから先の通信はそのアプリが行います。
+リンクを開くと、アプリはそのリンクをブラウザか、そのリンクを扱うアプリに渡します。そこから先の通信はそのアプリが行います。渡せなかったときは、Web のリンクを Linkpoche の中の Safari 画面（Apple が用意している SFSafariViewController）で開き、ページはその画面が読み込みます。Apple の仕組みにより、その画面の中での操作、自動入力のデータ、閲覧履歴、サイトのデータは Linkpoche からは見えません。サイトのデータ（ログインなど）は Safari とは別に置かれます。
 
 ### 端末内 AI
 

@@ -96,7 +96,9 @@ The widget shows links you have put in a pouch. Flick at least one link from the
 
 ### A link won't open
 
-Linkpoche hands links to your default browser. If a link won't open, choose Safari as your default browser app and try again.
+Linkpoche hands each link to your default browser, or to the app that handles it. If that doesn't work, a web link opens in a Safari view inside Linkpoche. To move it to Safari, use the button in that view. Sign-ins in that view are kept separate from Safari and your default browser, so a site may ask you to sign in again. If the link can't open there either, Linkpoche shows "Could not open the link."
+
+In version 1.2.0 and earlier, a link that can't be handed over doesn't open. Choose Safari as your default browser app and try again, or update to 1.2.1 or later.
 
 ### What is the "Version ... is available" notice?
 
@@ -157,6 +159,7 @@ A lock is a check Linkpoche makes before it shows a pouch. It isn't encryption. 
 - Locking and hiding need an iPhone passcode. If you turn the passcode off later, Linkpoche tells you that locks aren't working and opens the pouch after one more tap, so you're never shut out of your own links.
 - Your iPhone backup (in iCloud or on a computer) and the zip file you export include locked and hidden pouches, and the zip file isn't locked. A backup on a computer can be read on that computer unless it's protected with a backup password.
 - A link you open goes to your browser or another app, which keeps its own history and may sync it to your other devices. Linkpoche can't clear that history.
+- If a link can't be handed to your browser, it opens in a Safari view inside Linkpoche. That view is provided by Apple: Linkpoche can't see what you do there, or its AutoFill data, browsing history, or website data. Its website data, such as sign-ins, is kept separate from Safari. If you leave Linkpoche while that view is open, it may still be open when you come back, even for a link from a locked pouch.
 - Text you copy, links you share, and words you look up with Live Text leave Linkpoche when you do so.
 - A screenshot you add is copied into Linkpoche. The original stays in Photos, where it can show up in Photos search and widgets. Delete it in Photos if you don't want it there.
 - Linkpoche doesn't block screenshots, screen recording, or screen mirroring.
@@ -317,7 +320,9 @@ Linkpoche Plus は「購入を復元」で戻ります。リンクは一緒に�
 
 ### リンクが開けない
 
-Linkpoche はリンクを既定のブラウザに渡します。開けないときは、既定のブラウザを Safari にしてからもう一度試してください。
+Linkpoche はリンクを既定のブラウザか、そのリンクを扱うアプリに渡します。渡せなかったときは、Web のリンクを Linkpoche の中の Safari 画面で開きます。その画面のボタンで Safari に開き直せます。この画面でのログインは Safari や既定のブラウザとは別なので、サイトによってはもう一度ログインが要ることがあります。そこでも開けないときは「リンクを開けませんでした」と出ます。
+
+1.2.0 以前の版では、渡せなかったリンクは開きません。既定のブラウザを Safari にしてからもう一度試すか、1.2.1 以降にアップデートしてください。
 
 ### 「バージョン … が出ています」と出た
 
@@ -378,6 +383,7 @@ Linkpoche を離れると、鍵付きのポーチは閉じ、「隠しポーチ�
 - 鍵をかけるにも隠すにも、iPhone のパスコードが要ります。あとでパスコードをオフにすると、Linkpoche は鍵が効いていないことを知らせ、もう 1 回押すとポーチを開きます。自分のリンクを開けなくなることはありません。
 - iPhone のバックアップ（iCloud・パソコン）と、書き出した zip には、鍵付き・隠しのポーチの中身も入ります。zip には鍵がかかりません。パソコンへのバックアップは、バックアップのパスワードで保護していなければ、そのパソコンで読めます。
 - 開いたリンクは、ブラウザなど開いた先のアプリの履歴に残り、ほかの端末に同期されることもあります。Linkpoche からは消せません。
+- ブラウザに渡せなかったリンクは、Linkpoche の中の Safari 画面で開きます。この画面は Apple が用意しているもので、そこでの操作、自動入力のデータ、閲覧履歴、サイトのデータは Linkpoche からは見えません。サイトのデータ（ログインなど）は Safari とは別に置かれます。その画面を開いたまま Linkpoche を離れると、鍵付きのポーチのリンクでも、戻ったときにその画面が開いたままのことがあります。
 - コピーした文字、共有したリンク、Live Text で調べた言葉は、そのときに Linkpoche の外へ出ます。
 - 入れたスクショは Linkpoche に写したものです。元のスクショは写真アプリに残り、写真の検索やウィジェットに出ることがあります。残したくないときは、写真アプリで削除してください。
 - スクリーンショット・画面収録・画面ミラーリングは止められません。
