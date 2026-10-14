@@ -13,7 +13,7 @@ Nyani is a set of two-player board games with cats: Cat Tower, Fading Tic-Tac-To
 
 Send feedback or report a problem with this form: [https://forms.gle/GqJSQ4cF1YpSt5vx5](https://forms.gle/GqJSQ4cF1YpSt5vx5). Choose Nyani as the app.
 
-The form does not ask for your name or email address, so **we cannot reply to you individually**. What you send is used only to fix problems and improve the app. Please include your iPhone model, iOS version, the Nyani version (Settings in the app), which game you were playing, and what happened.
+The form does not ask for your name or email address, so **we cannot reply to you individually**. What you send is used only to fix problems and improve the app. If you open the form from Settings in Nyani, the Nyani and iOS versions are already filled in. Please also include your iPhone model, which game you were playing, and what happened.
 
 ## Frequently asked questions
 
@@ -23,7 +23,7 @@ Pick a game, tap Play, then "On this phone". Sit face to face and pass the phone
 
 ### How do we play on two phones?
 
-On one phone, pick a game and choose "In a room". The other player taps "Join a room" on the home screen and types the 6-digit number or scans the QR code. Both phones need an internet connection. Both phones need the same version of Nyani.
+On one phone, pick a game and choose "In a room". The other player taps "Join a room" on the home screen and types the 6-digit number or scans the QR code. Both phones need an internet connection and the same version of Nyani. In a room, the other player sees your title and your cat, not your name.
 
 ### Can I play alone?
 
@@ -59,7 +59,7 @@ Nyani は猫と遊ぶ 2 人用のボードゲーム集です。ねこタワー�
 
 こちらのフォームから送ってください: [https://forms.gle/GqJSQ4cF1YpSt5vx5](https://forms.gle/GqJSQ4cF1YpSt5vx5)。アプリは Nyani を選んでください。
 
-フォームでは名前もメールアドレスも聞かないため、**個別にお返事はできません**。いただいた内容は、不具合の修正とアプリの改善にだけ使います。iPhone の機種、iOS のバージョン、Nyani のバージョン（アプリの設定にあります）、遊んでいたゲーム、起きたことを書いてください。
+フォームでは名前もメールアドレスも聞かないため、**個別にお返事はできません**。いただいた内容は、不具合の修正とアプリの改善にだけ使います。Nyani の設定から開くと、Nyani と iOS のバージョンが入った状態で開きます。あわせて、iPhone の機種、遊んでいたゲーム、起きたことを書いてください。
 
 ### よくある質問
 
@@ -69,7 +69,7 @@ Nyani は猫と遊ぶ 2 人用のボードゲーム集です。ねこタワー�
 
 #### 2 台で遊ぶには
 
-片方の iPhone でゲームを選び「部屋で」を選びます。もう片方はホームの「部屋に入る」から 6 桁の番号を打つか、QR コードを読みます。2 台ともインターネットにつながっている必要があります。2 台とも同じバージョンの Nyani にしてください。
+片方の iPhone でゲームを選び「部屋で」を選びます。もう片方はホームの「部屋に入る」から 6 桁の番号を打つか、QR コードを読みます。2 台ともインターネットにつながっていて、同じバージョンの Nyani にしてください。部屋の相手に見えるのは、名前ではなく二つ名と猫です。
 
 #### ひとりでも遊べますか
 
