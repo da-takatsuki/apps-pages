@@ -4,6 +4,7 @@
 
 ## 公開ページ
 
+- [Nyani サポート](https://da-takatsuki.github.io/apps-pages/nyani/support.html) / [プライバシーポリシー](https://da-takatsuki.github.io/apps-pages/nyani/privacy-policy.html)
 - [Bonfire Focus プライバシーポリシー](https://da-takatsuki.github.io/apps-pages/bonfire-focus/privacy-policy.html)
 
 ## 構成
