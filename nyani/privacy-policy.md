@@ -47,7 +47,7 @@ What the relay keeps:
 - For each room: the room number, its state, when it was created, and hashed (not readable) seat tokens and room key. Moves and stamps are passed on and not stored.
 - A room nobody connects to is deleted about 10 minutes after it was created. Otherwise it is deleted within about 30 minutes after the last person disconnects.
 - Your IP address is used for 1 minute to limit how often rooms can be created or joined.
-- Cloudflare, which hosts the relay, may record technical logs of requests (such as the time, the address requested and the IP address). Any such logs are kept for no more than 30 days and are used only to keep the service running and to stop abuse. See [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
+- Cloudflare, which hosts the relay, processes request data such as the time, the address requested and your IP address to deliver and protect the service, under [its own privacy policy](https://www.cloudflare.com/privacypolicy/). Any request logs we can access are kept for no more than 30 days and are used only to run the service and stop abuse.
 
 None of this is linked to your identity, used for advertising, or shared with anyone else.
 
@@ -61,7 +61,7 @@ When you share a result card and choose Save Image, iOS asks for permission to a
 
 ## Sharing a result card
 
-The result card image is made on your iPhone. It shows the cats, the score and the winner (on one phone, the winner's name; in a room, the title). It goes only to the app you pick in the share sheet.
+You can share the result card after a game on one phone or against a neighbor cat. The image is made on your iPhone and shows the cats, the score and the winner's name. It goes only to the app you pick in the share sheet. Results in a room cannot be shared.
 
 ## Nyani Plus (in-app purchase)
 
@@ -85,7 +85,7 @@ You can play without rooms, and then nothing about your games leaves your iPhone
 
 ## Children
 
-Nyani does not ask anyone, including children, for personal information.
+Nyani doesn't collect personal information from anyone, including children. The name you enter stays on your iPhone.
 
 ## Changes to this policy
 
@@ -139,7 +139,7 @@ Nyani の提供者は Daiki Takatsuki です。連絡先: フォーム https://f
 - 部屋ごとに、部屋の番号・状態・作った時刻と、席の札と部屋の鍵のハッシュ（元に戻せない形）。手とスタンプは受け渡すだけで、保存しません。
 - 誰もつながらなかった部屋は、作ってから約 10 分で消えます。それ以外の部屋は、最後の人が切れてから約 30 分以内に消えます。
 - IP アドレスは、部屋を作る・入る回数を制限するために 1 分間だけ使います。
-- 中継を動かしている Cloudflare は、リクエストの技術的な記録（時刻・宛先・IP アドレスなど）を残すことがあります。残す場合も 30 日以内とし、サービスを動かすことと悪用を止めることにだけ使います。[Cloudflare のプライバシーポリシー](https://www.cloudflare.com/ja-jp/privacypolicy/) もご覧ください。
+- 中継を動かしている Cloudflare は、サービスを届けて守るために、時刻・宛先・IP アドレスなどのリクエストの情報を、[Cloudflare 自身のプライバシーポリシー](https://www.cloudflare.com/ja-jp/privacypolicy/) に沿って扱います。私たちが見られるリクエストの記録は 30 日以内とし、サービスを動かすことと悪用を止めることにだけ使います。
 
 これらをあなたが誰かと結びつけたり、広告に使ったり、ほかの人に渡したりすることはありません。
 
@@ -153,7 +153,7 @@ Nyani の提供者は Daiki Takatsuki です。連絡先: フォーム https://f
 
 ### 結果の札を送る
 
-結果の札の画像は iPhone の中で作ります。猫・スコア・勝った人（1 台では名前、部屋では二つ名）が入ります。共有シートで選んだアプリにだけ渡ります。
+結果の札は、1 台で遊んだ局と、近所の猫との局のあとに共有できます。画像は iPhone の中で作り、猫・スコア・勝った人の名前が入ります。共有シートで選んだアプリにだけ渡ります。部屋の結果は共有できません。
 
 ### Nyani Plus（App 内課金）
 
@@ -177,7 +177,7 @@ Apple は開発者に、ダウンロード数などの集計と、iPhone の設�
 
 ### お子さまについて
 
-Nyani は、お子さまを含め、誰にも個人情報を求めません。
+Nyani は、お子さまを含め、誰からも個人情報を集めません。入力した名前は iPhone の中にだけ置きます。
 
 ### このポリシーの変更
 

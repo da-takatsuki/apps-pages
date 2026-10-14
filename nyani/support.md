@@ -47,7 +47,7 @@ Nyani is free to download. Nyani Plus is sold by Apple, so refunds are handled b
 
 ## Privacy
 
-See the [Privacy Policy](privacy-policy.html). Nyani has no account and collects no data about you.
+See the [Privacy Policy](privacy-policy.html). Nyani has no account and doesn't collect data linked to you. The relay used for rooms may keep short-lived technical records.
 
 ---
 
@@ -93,4 +93,4 @@ Nyani のダウンロードは無料です。Nyani Plus を販売しているの
 
 ### プライバシー
 
-[プライバシーポリシー](privacy-policy.html) をご覧ください。Nyani にアカウントはなく、あなたについてのデータを集めません。
+[プライバシーポリシー](privacy-policy.html) をご覧ください。Nyani にアカウントはなく、あなたに結びつくデータは集めません。部屋で使う中継には、短い期間の技術的な記録が残ることがあります。
