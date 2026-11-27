@@ -16,7 +16,7 @@ Nyani is published by Daiki Takatsuki. Contact: the feedback form at https://for
 ## The short version
 
 - Your cat, your name and title, your game records and your settings are stored on your iPhone.
-- Nyani asks the App Store whether you own Nyani Plus, and asks our relay server how your invitations are going (see "Invite friends, get Plus"). On one phone and against the neighbor cats (the computer), these are the only things Nyani does online.
+- Nyani asks the App Store whether you own Nyani Plus and which Shop items you have bought, and asks our relay server how your invitations are going (see "Invite friends, get Plus"). On one phone and against the neighbor cats (the computer), these are the only things Nyani does online.
 - Rooms (two phones) pass game messages through our small relay server so the two phones can reach each other. **In a room, your name is sent to the other player** after Nyani checks it against the name rules and masks inappropriate words. The relay passes it on and does not store it.
 - The relay keeps the short-lived records and the invitation records described below. We use them only to run the service and stop abuse.
 - Nyani Plus, Shop items and the treats are sold by Apple. Nyani only learns what you own.
@@ -141,7 +141,7 @@ Nyani の提供者は Daiki Takatsuki です。連絡先: フォーム https://f
 ### 要約
 
 - 選んだ猫、名前と二つ名、対局の成績、設定は、iPhone の中に置きます。
-- Nyani は、App Store に Nyani Plus を持っているかを確かめ、私たちの中継サーバーに招待の進み具合を問い合わせます（「友だちを誘って Plus」を見てください）。1 台で遊ぶとき、近所の猫（コンピューター）と遊ぶときに通信するのは、この 2 つだけです。
+- Nyani は、App Store に Nyani Plus とストアの品を持っているかを確かめ、私たちの中継サーバーに招待の進み具合を問い合わせます（「友だちを誘って Plus」を見てください）。1 台で遊ぶとき、近所の猫（コンピューター）と遊ぶときに通信するのは、この 2 つだけです。
 - 部屋（2 台で遊ぶ）では、2 台がつながるために、私たちの小さな中継サーバーを通して対局の文を受け渡します。**部屋では、あなたの名前を相手に送ります。** 送る前に名前の決まりに通し、不適切な語は伏せ字にします。中継は受け渡すだけで、保存しません。
 - 中継には、下に書く短い期間の記録と、招待の記録が残ります。使うのは、サービスを動かすことと、悪用を止めることだけです。
 - Nyani Plus、ストアの品、応援のおやつを販売するのは Apple です。Nyani が知るのは、何を持っているかだけです。

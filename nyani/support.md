@@ -23,7 +23,7 @@ Pick a game, tap Play, then "On this phone". Sit face to face, or pass the phone
 
 ### How do we play on two phones?
 
-On one phone, pick a game and choose "In a room". The other player taps "Join a room" on the home screen and types the 6-digit number or scans the QR code. Both phones need an internet connection and the same version of Nyani.
+On one phone, pick a game and choose "In a room". The other player taps "Join" in the bottom menu (in older versions, "Join a room" on the home screen) and types the 6-digit number or scans the QR code. Both phones need an internet connection and the same version of Nyani.
 
 ### What does the other player see in a room?
 
@@ -56,7 +56,7 @@ Open the Settings app on your iPhone, tap your name, then Subscriptions, and cho
 
 ### I bought something on another iPhone
 
-Open the Shop or Settings in Nyani and tap Restore Purchases, using the Apple Account you bought with. This brings back Plus and Shop items. Treats are not restored this way.
+In Nyani, tap Restore purchase in the Shop or Restore Purchases in Settings, using the Apple Account you bought with. This brings back Plus and Shop items. Treats are not restored this way.
 
 ### What is the Shop?
 
@@ -102,7 +102,7 @@ Nyani は猫と遊ぶ 2 人用のゲーム集で、24 種あります。ねこ�
 
 #### 2 台で遊ぶには
 
-片方の iPhone でゲームを選び「部屋で」を選びます。もう片方はホームの「部屋に入る」から 6 桁の番号を打つか、QR コードを読みます。2 台ともインターネットにつながっていて、同じバージョンの Nyani にしてください。
+片方の iPhone でゲームを選び「部屋で」を選びます。もう片方は下のメニューの「部屋」（前の版はホームの「部屋に入る」）から 6 桁の番号を打つか、QR コードを読みます。2 台ともインターネットにつながっていて、同じバージョンの Nyani にしてください。
 
 #### 部屋で相手に見えるもの
 
