@@ -5,7 +5,7 @@ title: Nyani Privacy Policy
 
 # Nyani Privacy Policy
 
-Last updated: 2026-10-24
+Last updated: 2026-11-27
 
 [日本語はこちら](#日本語)
 
@@ -19,16 +19,16 @@ Nyani is published by Daiki Takatsuki. Contact: the feedback form at https://for
 - Nyani asks the App Store whether you own Nyani Plus, and asks our relay server how your invitations are going (see "Invite friends, get Plus"). On one phone and against the neighbor cats (the computer), these are the only things Nyani does online.
 - Rooms (two phones) pass game messages through our small relay server so the two phones can reach each other. **In a room, your name is sent to the other player** after Nyani checks it against the name rules and masks inappropriate words. The relay passes it on and does not store it.
 - The relay keeps the short-lived records and the invitation records described below. We use them only to run the service and stop abuse.
-- Nyani Plus and the treats are sold by Apple. Nyani only learns what you own.
+- Nyani Plus, Shop items and the treats are sold by Apple. Nyani only learns what you own.
 - There is no analytics SDK, no crash-reporting SDK, no advertising and no tracking.
 
 ## What stays on your iPhone
 
-- The cat you chose, the name and title you set, and the collar charm your cat wears.
+- The cat you chose, the name and title you set, the collar charm your cat wears, and the accessories you chose for your cat.
 - Your settings: music, sound effects, vibration and music volume.
 - Your game records. For each finished game: when it was played, which game, who you played (the other player's name and cat, or which neighbor cat) and the result. Nyani keeps the latest 5,000 games. The Records screen and the friend shown next to your cat on Home are made from these records. They are not sent anywhere.
 - When you last opened the app, so your cat can greet you after a while away.
-- Whether you own Nyani Plus and which treats you have given (a copy of what the App Store tells the app).
+- Whether you own Nyani Plus, which Shop items you own and which treats you have given (a copy of what the App Store tells the app).
 - Small markers so the same notice is not shown twice (for example, that you have already seen the Plus offer or a thank-you for an invitation).
 - A copy of how your invitations are going: the number of friends counted and the offer codes given to you.
 - The invite key (see "Invite friends, get Plus"), kept in the iPhone Keychain.
@@ -42,8 +42,8 @@ To connect two phones, Nyani uses a relay server we run on Cloudflare Workers.
 What passes through it while you are in a room:
 
 - The 6-digit room number, and the room key inside the QR code or link.
-- Your name, your title, the kind of cat you chose and its collar charm, so the other player can see them. Before your name is sent, Nyani checks it against the name rules (up to 12 characters, no links, no runs of 4 or more digits) and masks inappropriate words. If your name breaks the rules, it is not sent, and the other player sees your title instead. The other player's iPhone checks it again when it arrives.
-- The game the host picked, each move, and the stamps you send (stamps are fixed pictures with fixed words; there is no free-text chat).
+- Your name, your title, the kind of cat you chose (including a coat bought in the Shop), its collar charm, and the accessories it wears (hat, face accessory, charm and where the hat sits), so the other player can see them. Before your name is sent, Nyani checks it against the name rules (up to 12 characters, no links, no runs of 4 or more digits) and masks inappropriate words. If your name breaks the rules, it is not sent, and the other player sees your title instead. The other player's iPhone checks it again when it arrives.
+- The game and match format (Quick or Full) the host picked, each move, and the stamps you send (stamps are fixed pictures with fixed words; there is no free-text chat).
 - Whether the host owns Nyani Plus, so the other player can play the Plus games in that room.
 - The version numbers of the room messages and of each game's rules, so two different app versions don't start a game that would go out of step.
 - The list of games your version of Nyani has, so the host only picks a game both phones can play.
@@ -94,9 +94,9 @@ When you share a result card and choose Save Image, iOS asks for permission to a
 
 You can share the result card after any game, including a game in a room. The image is made on your iPhone. It shows both cats, the winner's name, the score and, when there is one, your record against the other player with their name (in a room, the name shown after the name check). It goes only to the app you pick in the share sheet.
 
-## Nyani Plus and treats (in-app purchases)
+## Nyani Plus, Shop items and treats (in-app purchases)
 
-Purchases are handled by Apple. Nyani never sees your payment details. It only learns from Apple whether you own Nyani Plus and which treats you have given.
+Purchases are handled by Apple. Nyani never sees your payment details. It only learns from Apple whether you own Nyani Plus, which Shop items you own and which treats you have given.
 
 ## No third parties in the app
 
@@ -132,7 +132,7 @@ The feedback form at https://forms.gle/GqJSQ4cF1YpSt5vx5 (choose Nyani as the ap
 
 ## 日本語
 
-最終更新日: 2026-10-24
+最終更新日: 2026-11-27
 
 Nyani は猫と遊ぶ 2 人用のボードゲーム集です。アカウントもサインインもなく、広告もトラッキングもありません。何が iPhone の中に残り、何が外へ出て、どのくらいの期間残るのかを、項目ごとに書きます。
 
@@ -144,16 +144,16 @@ Nyani の提供者は Daiki Takatsuki です。連絡先: フォーム https://f
 - Nyani は、App Store に Nyani Plus を持っているかを確かめ、私たちの中継サーバーに招待の進み具合を問い合わせます（「友だちを誘って Plus」を見てください）。1 台で遊ぶとき、近所の猫（コンピューター）と遊ぶときに通信するのは、この 2 つだけです。
 - 部屋（2 台で遊ぶ）では、2 台がつながるために、私たちの小さな中継サーバーを通して対局の文を受け渡します。**部屋では、あなたの名前を相手に送ります。** 送る前に名前の決まりに通し、不適切な語は伏せ字にします。中継は受け渡すだけで、保存しません。
 - 中継には、下に書く短い期間の記録と、招待の記録が残ります。使うのは、サービスを動かすことと、悪用を止めることだけです。
-- Nyani Plus と応援のおやつを販売するのは Apple です。Nyani が知るのは、何を持っているかだけです。
+- Nyani Plus、ストアの品、応援のおやつを販売するのは Apple です。Nyani が知るのは、何を持っているかだけです。
 - 分析・クラッシュ報告・広告・トラッキングのための SDK は入っていません。
 
 ### iPhone の中に置くもの
 
-- 選んだ猫、決めた名前と二つ名、猫が着けている首輪のチャーム。
+- 選んだ猫、決めた名前と二つ名、猫が着けている首輪のチャーム、猫に着せた小物。
 - 設定（BGM、効果音、振動、BGM の音量）。
 - 対局の成績。終わった 1 局ごとに、遊んだ日時、ゲーム、相手（相手の名前と猫、または近所のどの猫か）、勝敗を残します。残すのは新しいほうから 5,000 局までです。成績の画面と、ホームで猫の隣に出る友だちは、この成績から作ります。どこにも送りません。
 - 最後にアプリを開いた時刻（しばらくぶりに開いたとき、猫があいさつするため）。
-- Nyani Plus を持っているか、どの応援のおやつを差し入れたか（App Store がアプリに伝えた内容の写し）。
+- Nyani Plus を持っているか、どのストアの品を持っているか、どの応援のおやつを差し入れたか（App Store がアプリに伝えた内容の写し）。
 - 同じ知らせを 2 度出さないための小さな印（Plus の案内や、招待のお礼をもう見たか、など）。
 - 招待の進み具合の写し（数えた友だちの人数と、あなたに渡されたオファーコード）。
 - 招待の鍵（「友だちを誘って Plus」を見てください）。iPhone のキーチェーンに置きます。
@@ -167,8 +167,8 @@ Nyani の提供者は Daiki Takatsuki です。連絡先: フォーム https://f
 部屋にいるあいだに通るもの:
 
 - 6 桁の部屋の番号と、QR コードやリンクに入っている部屋の鍵。
-- 相手に見せるための、名前、二つ名、選んだ猫の種類、首輪のチャーム。名前は、送る前に名前の決まり（12 文字まで、リンクを含まない、4 桁以上の数字が並ばない）に通し、不適切な語を伏せ字にします。決まりに外れる名前は送らず、相手には二つ名が見えます。受けた相手の iPhone でも、もう一度同じ決まりに通します。
-- 部屋主が選んだゲーム、1 手ずつの手、送ったスタンプ（スタンプは決まった絵と決まった言葉だけで、自由に書くチャットはありません）。
+- 相手に見せるための、名前、二つ名、選んだ猫の種類（ストアで買った毛色を含みます）、首輪のチャーム、猫が身に着けている小物（帽子、顔まわりの小物、チャームと、帽子の位置）。名前は、送る前に名前の決まり（12 文字まで、リンクを含まない、4 桁以上の数字が並ばない）に通し、不適切な語を伏せ字にします。決まりに外れる名前は送らず、相手には二つ名が見えます。受けた相手の iPhone でも、もう一度同じ決まりに通します。
+- 部屋主が選んだゲームと対戦形式（サクッとか本格か）、1 手ずつの手、送ったスタンプ（スタンプは決まった絵と決まった言葉だけで、自由に書くチャットはありません）。
 - 部屋主が Nyani Plus を持っているか（その部屋で相手も Plus のゲームを遊べるようにするため）。
 - 部屋の文の形の版と、ゲームの決まりの版（版の違う 2 台で対局がずれないようにするため）。
 - あなたの版の Nyani で遊べるゲームの一覧（部屋主が、2 台とも遊べるゲームだけを選べるようにするため）。
@@ -219,9 +219,9 @@ Nyani には、友だちを誘うと Plus が無料になる仕組みがあり�
 
 結果の札は、どの局のあとでも共有できます（部屋の局も含みます）。画像は iPhone の中で作り、2 匹の猫・勝った人の名前・スコアと、あれば相手との通算（相手の名前つき。部屋では名前の決まりを通った名前）が入ります。共有シートで選んだアプリにだけ渡ります。
 
-### Nyani Plus と応援のおやつ（App 内課金）
+### Nyani Plus、ストアの品、応援のおやつ（App 内課金）
 
-購入の処理は Apple が行います。Nyani が支払いの情報を見ることはありません。Apple から受け取るのは、Nyani Plus を持っているかと、どの応援のおやつを差し入れたかだけです。
+購入の処理は Apple が行います。Nyani が支払いの情報を見ることはありません。Apple から受け取るのは、Nyani Plus を持っているか、どのストアの品を持っているか、どの応援のおやつを差し入れたかだけです。
 
 ### アプリの中の第三者
 

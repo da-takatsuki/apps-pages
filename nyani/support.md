@@ -7,7 +7,7 @@ title: Nyani Support
 
 [日本語はこちら](#日本語)
 
-Nyani is a set of two-player games with cats. Cat Tower, Fading Tic-Tac-Toe, Cat Memory, Reversi and Gomoku are free. Cat in a Box, Fish Auction, Four in a Row, Cat Pile-Up, Yarn Curling, Wait & Pounce and Neko Path come with Nyani Plus.
+Nyani is a set of 24 two-player games with cats. Nine are free: Cat Tower, Fading Tic-Tac-Toe, Cat Memory, Reversi, Gomoku, Yacht, Mancala, Old Maid and Air Hockey. Fifteen come with Nyani Plus: Cat in a Box, Fish Auction, Four in a Row, Cat Pile-Up, Yarn Curling, Wait & Pounce, Snack or Stack, Hanafuda, Crazy Eights, Chess, Shogi, Checkers, Neko Path, Cat Garden Golf and Billiards.
 
 ## Contact
 
@@ -27,7 +27,7 @@ On one phone, pick a game and choose "In a room". The other player taps "Join a 
 
 ### What does the other player see in a room?
 
-Your name, your title, your cat and its collar charm. Before your name is sent, Nyani checks it (12 characters at most, no links, no run of 4 or more digits) and masks inappropriate words. If your name doesn't pass, the other player sees your title instead. To use a different name, change it in Profile before you join.
+Your name, your title, your cat (including a coat from the Shop), its collar charm, and the accessories it wears. Before your name is sent, Nyani checks it (12 characters at most, no links, no run of 4 or more digits) and masks inappropriate words. If your name doesn't pass, the other player sees your title instead. To use a different name, change it in Profile before you join.
 
 ### Someone in a room made me uncomfortable
 
@@ -43,7 +43,7 @@ On your iPhone. Open Profile to see your last 10 games, your win rate and the fu
 
 ### What is Nyani Plus?
 
-Plus unlocks the seven Plus games and every game added later. There are three ways to get it:
+Plus unlocks the 15 Plus games and every game added later. There are three ways to get it:
 
 - Yearly or Monthly: subscriptions that renew automatically. Each comes with a 3-day free trial if you are eligible for it.
 - Forever: a one-time purchase.
@@ -54,9 +54,13 @@ On one phone, the phone needs Plus. In a room, if the host has Plus, both player
 
 Open the Settings app on your iPhone, tap your name, then Subscriptions, and choose Nyani. Cancel at least 24 hours before the end of the current period (or of the free trial) to avoid being charged for the next one. See Apple's guide: [Cancel a subscription from Apple](https://support.apple.com/en-us/118428). Deleting Nyani does not cancel a subscription.
 
-### I bought Plus on another iPhone
+### I bought something on another iPhone
 
-Open Settings in Nyani and tap Restore Purchases. Use the same Apple Account you bought it with.
+Open the Shop or Settings in Nyani and tap Restore Purchases, using the Apple Account you bought with. This brings back Plus and Shop items. Treats are not restored this way.
+
+### What is the Shop?
+
+The Shop sells one-time cosmetic items: a coat, hats, face accessories, charms and match stamps. They change how your cat looks or add stamps. They don't unlock games.
 
 ### What are treats?
 
@@ -72,7 +76,7 @@ Yes. Settings has switches for music, sound effects and vibration, and a music v
 
 ## Refunds
 
-Nyani is free to download. Nyani Plus and treats are sold by Apple, so refunds are handled by Apple, not by us. See Apple's guide: [Request a refund for apps or content that you bought from Apple](https://support.apple.com/en-us/118223).
+Nyani is free to download. Nyani Plus, Shop items and treats are sold by Apple, so refunds are handled by Apple, not by us. See Apple's guide: [Request a refund for apps or content that you bought from Apple](https://support.apple.com/en-us/118223).
 
 ## Privacy
 
@@ -82,7 +86,7 @@ See the [Privacy Policy](privacy-policy.html). Nyani has no account, no ads and 
 
 ## 日本語
 
-Nyani は猫と遊ぶ 2 人用のゲーム集です。ねこタワー・にゃんまるばつ・ねこ神経衰弱・リバーシ・五目並べは無料、はこねこ・さかなのせり・四目並べ・ねこかぶせ・毛玉カーリング・まて・よし・ねこみちは Nyani Plus で遊べます。
+Nyani は猫と遊ぶ 2 人用のゲーム集で、24 種あります。ねこタワー・まるばつ・神経衰弱・リバーシ・五目並べ・ヨット・マンカラ・ババ抜き・エアホッケーの 9 種は無料で、はこねこ・さかなのせり・四目並べ・かぶせまるばつ・カーリング・瞬間の見切り・よくばりおやつ・花札・クレイジー8・チェス・将棋・チェッカー・ねこみち・猫庭ミニゴルフ・ビリヤードの 15 種は Nyani Plus で遊べます。
 
 ### お問い合わせ
 
@@ -94,7 +98,7 @@ Nyani は猫と遊ぶ 2 人用のゲーム集です。ねこタワー・にゃ�
 
 #### 1 台で遊ぶには
 
-ゲームを選んで「遊ぶ」→「この 1 台で」。ゲームに合わせて、向かい合うか、手渡しで交代します。まて・よしは横に並んで、それぞれ自分の側を押します。手札を隠すゲームでは、相手に見えないよう幕が出ます。
+ゲームを選んで「遊ぶ」→「この 1 台で」。ゲームに合わせて、向かい合うか、手渡しで交代します。瞬間の見切りは横に並んで、それぞれ自分の側を押します。手札を隠すゲームでは、相手に見えないよう幕が出ます。
 
 #### 2 台で遊ぶには
 
@@ -102,7 +106,7 @@ Nyani は猫と遊ぶ 2 人用のゲーム集です。ねこタワー・にゃ�
 
 #### 部屋で相手に見えるもの
 
-名前、二つ名、猫と、猫が着けている首輪のチャームです。名前は、送る前に決まり（12 文字まで、リンクを含まない、4 桁以上の数字が並ばない）に通し、不適切な語を伏せ字にします。決まりに外れる名前は送らず、相手には二つ名が見えます。別の名前にしたいときは、部屋に入る前にプロフィールで変えてください。
+名前、二つ名、猫（ストアで買った毛色を含みます）、首輪のチャーム、猫が身に着けている小物です。名前は、送る前に決まり（12 文字まで、リンクを含まない、4 桁以上の数字が並ばない）に通し、不適切な語を伏せ字にします。決まりに外れる名前は送らず、相手には二つ名が見えます。別の名前にしたいときは、部屋に入る前にプロフィールで変えてください。
 
 #### 部屋で嫌な思いをした
 
@@ -118,7 +122,7 @@ iPhone の中です。プロフィールで、直近 10 局と勝率、相手ご
 
 #### Nyani Plus とは
 
-Plus の 7 種と、今後足すゲームがすべて遊べます。買い方は 3 つです。
+Plus の 15 種と、今後足すゲームがすべて遊べます。買い方は 3 つです。
 
 - 年・月: 自動で更新されるサブスクリプションです。対象の方には、それぞれ 3 日間の無料のお試しがあります
 - ずっと: 1 回きりの購入です
@@ -129,9 +133,13 @@ Plus の 7 種と、今後足すゲームがすべて遊べます。買い方は
 
 iPhone の設定アプリで自分の名前を押し、「サブスクリプション」から Nyani を選びます。次の期間の料金がかからないよう、今の期間（お試し中ならお試し）が終わる 24 時間前までに解約してください。手順は Apple の案内 [Appleのサブスクリプションを解約する](https://support.apple.com/ja-jp/118428) をご覧ください。Nyani を削除しても、サブスクリプションは解約されません。
 
-#### ほかの iPhone で Plus を買った
+#### ほかの iPhone で買った
 
-Nyani の設定で「購入を復元」を押してください。買ったときと同じ Apple アカウントを使ってください。
+Nyani のストアか設定で「購入を復元」を押してください。買ったときと同じ Apple アカウントを使ってください。Plus とストアの品が戻ります。おやつはこの方法では戻りません。
+
+#### ストアとは
+
+1 回きりの購入で使える品を売っています。毛色、帽子、顔まわりの小物、チャーム、対戦スタンプです。猫の見た目が変わるか、スタンプが増えるだけで、ゲームは増えません。
 
 #### おやつとは
 
@@ -147,7 +155,7 @@ Nyani を初めて使う友だちが、あなたの作った部屋で 1 局を�
 
 ### 返金
 
-Nyani のダウンロードは無料です。Nyani Plus とおやつを販売しているのは Apple なので、返金は Apple が受け付けます。私たちからは返金できません。手順は Apple の案内 [Appleから購入したアプリやコンテンツの返金手続きをする](https://support.apple.com/ja-jp/118223) をご覧ください。
+Nyani のダウンロードは無料です。Nyani Plus、ストアの品、おやつを販売しているのは Apple なので、返金は Apple が受け付けます。私たちからは返金できません。手順は Apple の案内 [Appleから購入したアプリやコンテンツの返金手続きをする](https://support.apple.com/ja-jp/118223) をご覧ください。
 
 ### プライバシー
 
